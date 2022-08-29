@@ -102,3 +102,20 @@ loves_to_play = true
 loves_dog_park = false
 loves_treats = true
 age = 1
+
+# YOU DO:
+# Determine if the dog loves to play and loves treats
+loves_to_play && loves_treats
+
+# Determine if the dog loves to play and loves the dog park
+loves_to_play && loves_dog_park
+
+# Determine if the dog loves to play or loves the dog park
+loves_to_play || loves_dog_park
+
+# Determine if the dog loves to play and is a puppy
+loves_to_play && (age <= 1)
+
+# What did your final line of code evaluate to? Why do you think that is? Explain.
+# ANSWER: this result should print: true. This is because the loves_to_play variable is true and the age variable is
+# equal to 1, so both conditions are true.
