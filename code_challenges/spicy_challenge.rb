@@ -10,6 +10,6 @@ if good_driving_record == true && is_over_25 == true
   puts "they should get a discount on the car rental"
 elsif good_driving_record == true || is_over_25 == true
   puts "they should pay full price"
-elsif is_over_25 != true && good_driving_record == false
+elsif is_over_25 != false && good_driving_record == false
   puts "they need to have someone else sign for the rental"
 end
