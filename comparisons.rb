@@ -102,18 +102,3 @@ loves_to_play = true
 loves_dog_park = false
 loves_treats = true
 age = 1
-
-# YOU DO:
-# Determine if the dog loves to play and loves treats
-
-
-# Determine if the dog loves to play and loves the dog park
-
-
-# Determine if the dog loves to play or loves the dog park
-
-
-# Determine if the dog loves to play and is a puppy
-
-# What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
