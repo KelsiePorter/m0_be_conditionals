@@ -12,7 +12,7 @@ puts "You enter a dark room with two doors. Do you go through #1 or #2?"
 if door_choice == 1
   bear_clothing = "hat"
 else
-  bear_clothing = "scarf"
+  bear_clothing = "dress"
 end
 
 puts "You see a bear putting on a " + bear_clothing
@@ -35,9 +35,24 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+# Answer: Lines 12 through 16 is an if statement. Based on what the door_choice is equal to,
+# the variable bear_clothing will be assigned "hat" or "dress". If door_choice is equal to 1, the bear_clothing
+# will be assigned the string "hat", if door_choice is equal to anything else, the bear_clothing will be assigned the string "dress"
 # 2. What variable has a new value assigned to it after the first if statement executes?
+# Answer: bear_clothing
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
-# 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+# Answer: "dress"
+# 4. In English, using technical vocabulary, describe what is happening between lines 25 and 33.
+# Answer: Lines 25 through 33 is an if statement that uses elsif. Using elsif allows you to have more
+# if statements to make a more complex statement. In addition, lines 26 and 28 are using string concatenation where
+# the + appends the strings together with the bear_clothing variable in the middle. In line 25, if the bear_choice
+# is equal to 1 then the string on line 26 is true. If bear_choice is not 1 but is 2, then line 28 is true.
+# If bear_choice is not 1 or 2 but 3, then line 30 is true. If bear_choice is anything besides 1, 2, or 3, then
+# line 32 is true. No message will be output since the puts/print commands are not used.
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+# Answer: You run as fast as you can into the next room. It's full of snakes!
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
-# 7. What is your favorite ending?
+# Answer: You tell the bear the hat is too small and it starts to cry!
+#7. What is your favorite ending?
+# Answer: Variable door_choice equals 5, and the variable bear_choice equals 1.
+# You offer the bear your dress and the bear shows you a secret passage out!
